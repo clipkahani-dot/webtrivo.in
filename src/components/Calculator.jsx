@@ -120,7 +120,7 @@ export default function Calculator() {
                     <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-brand-red text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">
                       Popular
                     </span>
-                    <div className="text-xs">Clinic Pro</div>
+                    <div className="text-xs">Growth Pro</div>
                     <div className="text-sm font-black mt-1">₹9,999</div>
                   </button>
 
