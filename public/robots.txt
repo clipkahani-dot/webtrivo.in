@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow build and source directories if directly exposed
+Disallow: /api/
+Disallow: /scratch/
+
+# Search Engine Sitemap Location
+Sitemap: https://webtrivo.in/sitemap.xml
