@@ -35,7 +35,7 @@ export default function PricingPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-brand-red hover:bg-red-700 text-white text-xs sm:text-sm font-bold rounded-2xl shadow-lg transition hover:scale-105 self-start md:self-auto"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain" />
               <span>Ask a Question on WhatsApp</span>
             </a>
           </div>
@@ -410,7 +410,7 @@ export default function PricingPage() {
               rel="noopener noreferrer"
               className="px-6 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs sm:text-sm rounded-2xl shadow-xl flex items-center gap-2.5 transition hover:scale-105 active:scale-95 flex-shrink-0"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain" />
               <span>Ask Advice on WhatsApp</span>
             </a>
           </div>

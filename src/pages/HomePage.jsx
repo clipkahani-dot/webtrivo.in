@@ -31,10 +31,13 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-sky-300/40 group hover:shadow-sky-500/25 transition-all duration-500 bg-slate-950">
             <img 
-              src="/images/webtrivo_banner.png" 
+              src="/images/webtrivo_banner.webp" 
               alt="Webtrivo AI Web Agency Official Banner" 
+              width="1200"
+              height="415"
+              loading="lazy"
+              decoding="async"
               className="w-full h-auto object-cover group-hover:scale-[1.01] transition-transform duration-700"
-              loading="eager"
             />
             {/* Ambient Cyber Accent */}
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
@@ -194,7 +197,7 @@ export default function HomePage() {
                         : 'bg-slate-900 hover:bg-brand-blue text-white'
                     }`}
                   >
-                    <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+                    <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
                     <span>{plan.ctaText}</span>
                   </a>
                   <Link 

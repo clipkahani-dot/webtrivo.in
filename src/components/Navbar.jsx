@@ -53,7 +53,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 text-emerald-400 hover:text-white transition font-bold"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
               <span>WhatsApp: {PHONE_DISPLAY}</span>
             </a>
           </div>
@@ -72,8 +72,10 @@ export default function Navbar() {
           {/* Logo Brand */}
           <Link to="/" className="flex items-center gap-2.5 group">
             <img 
-              src="/images/webtivo_logo.png" 
+              src="/images/webtivo_logo.webp" 
               alt="Webtrivo AI Web Agency Logo" 
+              width="40"
+              height="40"
               className="w-10 h-10 rounded-xl object-cover shadow-md shadow-sky-500/25 group-hover:scale-105 transition-transform duration-300 border border-slate-800 bg-slate-950"
             />
 
@@ -135,7 +137,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="bg-brand-red hover:bg-red-700 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl shadow-md shadow-brand-red/25 flex items-center gap-2.5 transition hover:scale-105 active:scale-95"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain flex-shrink-0" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />
               <span>Quick Demo Preview</span>
             </a>
           </div>
@@ -143,7 +145,7 @@ export default function Navbar() {
           {/* Mobile Menu Toggle Button */}
           <button
             onClick={() => setMobileMenu(!mobileMenu)}
-            className="lg:hidden p-2 text-slate-700 hover:text-brand-blue hover:bg-slate-100 rounded-lg transition"
+            className="md:hidden p-2.5 rounded-xl text-slate-700 hover:text-brand-blue hover:bg-slate-100 transition"
             aria-label="Toggle menu"
           >
             {mobileMenu ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -151,16 +153,17 @@ export default function Navbar() {
 
         </div>
 
-        {/* Mobile Dropdown Menu */}
+        {/* ── Mobile Menu Dropdown ── */}
         {mobileMenu && (
-          <div className="lg:hidden bg-white border-t border-slate-100 px-4 py-4 space-y-3 shadow-xl">
-            <div className="flex flex-col gap-1.5 font-medium text-slate-800 text-sm">
+          <div className="md:hidden bg-white/98 backdrop-blur-xl border-t border-slate-100 px-5 py-6 space-y-4 shadow-2xl animate-in slide-in-from-top duration-300">
+            <div className="flex flex-col space-y-3 text-sm font-bold text-slate-700">
               <Link 
                 to="/" 
                 onClick={() => setMobileMenu(false)}
-                className="p-2.5 hover:bg-sky-50 rounded-xl text-slate-900 font-semibold"
+                className="p-2.5 hover:bg-sky-50 rounded-xl text-slate-900 flex items-center justify-between"
               >
-                🏠 Home
+                <span>🏠 Home</span>
+                <span className="text-xs text-brand-blue font-semibold">Overview</span>
               </Link>
               <Link 
                 to="/services" 
@@ -207,7 +210,7 @@ export default function Navbar() {
                 rel="noopener noreferrer"
                 className="w-full justify-center py-3 text-sm font-bold bg-brand-red text-white rounded-xl shadow-md flex items-center gap-2"
               >
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain" />
                 <span>Get Quick Demo on WhatsApp</span>
               </a>
             </div>

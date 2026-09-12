@@ -92,7 +92,7 @@ export default function Portfolio() {
                   rel="noopener noreferrer"
                   className="px-5 py-3 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs sm:text-sm font-bold rounded-xl border border-emerald-300 flex items-center gap-2.5 transition hover:scale-105"
                 >
-                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-6 h-6 object-contain flex-shrink-0" />
+                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="24" height="24" className="w-6 h-6 object-contain flex-shrink-0" />
                   <span>Get Website Like This</span>
                 </a>
               </div>
@@ -123,10 +123,13 @@ export default function Portfolio() {
                 {/* Real Live Production Website Screenshot */}
                 <div className="bg-white rounded-xl overflow-hidden shadow-inner border border-slate-700 relative group/img">
                   <img
-                    src="/images/live-proof-dr-pathak.png"
+                    src="/images/live-proof-dr-pathak.webp"
                     alt="Dr. Rajesh Pathak MD - Live Doctor Website Portal Built by Webtrivo"
-                    className="w-full h-auto object-cover object-top transition-transform duration-500 group-hover/img:scale-[1.02]"
+                    width="512"
+                    height="372"
                     loading="lazy"
+                    decoding="async"
+                    className="w-full h-auto object-cover object-top transition-transform duration-500 group-hover/img:scale-[1.02]"
                   />
                   
                   {/* Floating verification badge overlay */}

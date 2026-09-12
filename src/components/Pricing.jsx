@@ -161,7 +161,7 @@ export default function Pricing() {
                         : 'bg-slate-900 hover:bg-brand-blue text-white shadow-slate-900/20'
                     }`}
                   >
-                    <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain flex-shrink-0" />
+                    <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />
                     <span>{plan.ctaText}</span>
                   </a>
                   <p className="text-center text-[11px] text-slate-500 mt-2">

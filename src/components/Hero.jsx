@@ -58,7 +58,7 @@ export default function Hero() {
                 Professional websites for clinics, shops, consultants & local businesses — starting at <span className="text-brand-red font-bold">₹4,999</span>.
               </p>
               <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-sm font-bold shadow-sm">
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain flex-shrink-0" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />
                 <span>See your website demo on WhatsApp before you pay.</span>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-7 py-4 bg-brand-red hover:bg-red-700 text-white font-extrabold text-base rounded-2xl shadow-xl shadow-brand-red/30 flex items-center justify-center gap-3 transition-all hover:scale-105 active:scale-95 group"
               >
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-7 h-7 object-contain group-hover:scale-110 transition-transform flex-shrink-0" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="28" height="28" className="w-7 h-7 object-contain group-hover:scale-110 transition-transform flex-shrink-0" />
                 <span>Get Quick Demo Preview on WhatsApp</span>
               </a>
 
@@ -159,8 +159,11 @@ export default function Hero() {
               {/* Real Live Production Website Screenshot */}
               <div className="relative rounded-2xl overflow-hidden shadow-inner border border-slate-200 group max-h-72 sm:max-h-none">
                 <img
-                  src="/images/live-proof-dr-pathak.png"
+                  src="/images/live-proof-dr-pathak.webp"
                   alt="Dr. Rajesh Pathak MD - Live Doctor Website Built by Webtrivo"
+                  width="512"
+                  height="372"
+                  fetchPriority="high"
                   className="w-full h-auto object-cover object-top hover:scale-105 transition-transform duration-500"
                   loading="eager"
                 />
@@ -170,6 +173,8 @@ export default function Hero() {
                   <img 
                     src="/images/whatsapp-icon.webp" 
                     alt="WhatsApp" 
+                    width="28"
+                    height="28"
                     className="w-7 h-7 object-contain flex-shrink-0"
                   />
                   <div className="text-[11px] leading-tight text-slate-200">

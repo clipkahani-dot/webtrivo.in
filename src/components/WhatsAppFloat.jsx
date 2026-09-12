@@ -11,7 +11,7 @@ export default function WhatsAppFloat() {
         className="hidden sm:inline-flex items-center gap-2 px-4 py-2 bg-white text-slate-800 text-xs font-extrabold rounded-full shadow-xl border border-emerald-200 hover:text-emerald-700 transition hover:shadow-2xl"
       >
         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-        <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain" />
+        <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain" />
         <span>Quick Demo on WhatsApp</span>
       </a>
 
@@ -26,6 +26,8 @@ export default function WhatsAppFloat() {
         <img 
           src="/images/whatsapp-icon.webp" 
           alt="Chat on WhatsApp" 
+          width="64"
+          height="64"
           className="w-full h-full object-cover rounded-full drop-shadow-xl"
         />
       </a>

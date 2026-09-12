@@ -184,7 +184,7 @@ export const PORTFOLIO_ITEMS = [
       'Dual Real Video Players (OPD/IPD)',
       '100% Mobile First Architecture'
     ],
-    image: '/images/live-proof-dr-pathak.png',
+    image: '/images/live-proof-dr-pathak.webp',
     tag: 'Flagship Live Project'
   },
   {

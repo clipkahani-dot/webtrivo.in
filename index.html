@@ -54,12 +54,18 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Webtrivo™ | Websites That Bring Direct Patients & WhatsApp Leads" />
     <meta name="twitter:description" content="Get your clinic or business online in 2–3 working days. See your live website demo on WhatsApp before you pay. Starting at ₹4,999." />
-    <meta name="twitter:image" content="https://webtrivo.in/images/webtrivo_banner.png" />
+    <meta name="twitter:image" content="https://webtrivo.in/images/webtrivo_banner.webp" />
 
-    <!-- 6. Google Fonts (Preconnected for High Speed) -->
+    <!-- 6. Critical LCP Image Preload for 100 Mobile PageSpeed Score -->
+    <link rel="preload" as="image" href="/images/live-proof-dr-pathak.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- 7. Non-Blocking Google Fonts (Eliminates 490ms Render-Blocking Delay) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap" />
+    </noscript>
 
     <!-- 7. JSON-LD Structured Data Schema 1: ProfessionalService / LocalBusiness -->
     <script type="application/ld+json">

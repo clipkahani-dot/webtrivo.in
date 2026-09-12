@@ -238,7 +238,7 @@ export default function Calculator() {
                   rel="noopener noreferrer"
                   className="w-full py-4 px-5 bg-brand-red hover:bg-red-700 text-white font-extrabold text-xs sm:text-sm rounded-xl shadow-lg shadow-brand-red/30 flex items-center justify-center gap-2.5 transition hover:scale-105 active:scale-95"
                 >
-                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-6 h-6 object-contain flex-shrink-0" />
+                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="24" height="24" className="w-6 h-6 object-contain flex-shrink-0" />
                   <span>Get This Quote on WhatsApp</span>
                 </a>
                 <p className="text-center text-[10px] text-slate-400 mt-2">

@@ -122,7 +122,7 @@ export default function HowItWorks() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-brand-red hover:bg-red-700 text-white font-extrabold text-sm sm:text-base rounded-2xl shadow-xl shadow-brand-red/25 transition hover:scale-105"
           >
-            <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-6 h-6 object-contain flex-shrink-0" />
+            <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="24" height="24" className="w-6 h-6 object-contain flex-shrink-0" />
             <span>Start Your Project — Get Quick Demo on WhatsApp</span>
           </a>
         </div>

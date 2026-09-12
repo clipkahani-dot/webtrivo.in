@@ -74,7 +74,7 @@ export default function FAQ() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-brand-red hover:underline"
           >
-            <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+            <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
             <span>Chat directly with the Webtrivo team on WhatsApp →</span>
           </a>
         </div>

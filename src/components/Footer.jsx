@@ -43,7 +43,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="px-7 py-3.5 bg-brand-red hover:bg-red-700 text-white font-extrabold text-sm rounded-2xl shadow-lg flex items-center gap-2.5 transition hover:scale-105"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain flex-shrink-0" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />
               <span>Get Quick Demo on WhatsApp</span>
             </a>
             <a
@@ -52,7 +52,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="px-6 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm rounded-2xl shadow-lg flex items-center gap-2.5 transition hover:scale-105"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain flex-shrink-0" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />
               <span>Chat Directly on WhatsApp</span>
             </a>
           </div>
@@ -65,8 +65,11 @@ export default function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2.5">
               <img 
-                src="/images/webtivo_logo.png" 
+                src="/images/webtivo_logo.webp" 
                 alt="Webtrivo AI Web Agency Logo" 
+                width="44"
+                height="44"
+                loading="lazy"
                 className="w-11 h-11 rounded-xl object-cover shadow-lg border border-slate-800 bg-slate-950"
               />
               <span className="text-xl font-black text-white tracking-tight">
@@ -122,7 +125,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 text-xs">
               <div className="flex items-start gap-2.5">
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="text-[10px] text-slate-500 uppercase">Official WhatsApp:</div>
                   <a href={WHATSAPP_MAIN_URL} target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:text-emerald-400 block">
@@ -132,7 +135,7 @@ export default function Footer() {
               </div>
 
               <div className="flex items-start gap-2.5">
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="text-[10px] text-slate-500 uppercase">WhatsApp Inquiry:</div>
                   <a href={WHATSAPP_MAIN_URL} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-semibold hover:underline block">

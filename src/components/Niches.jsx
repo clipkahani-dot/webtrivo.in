@@ -79,7 +79,7 @@ export default function Niches() {
                     <span>Request Quick Demo</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition" />
                   </a>
-                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
                 </div>
               </div>
             )
@@ -109,7 +109,7 @@ export default function Niches() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-xs font-bold text-white bg-brand-red hover:bg-red-700 px-4 py-2.5 rounded-xl transition shadow"
               >
-                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+                <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
                 <span>Ask on WhatsApp</span>
                 <ArrowRight className="w-3.5 h-3.5" />
               </a>

@@ -35,7 +35,7 @@ export default function PortfolioPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 bg-brand-red hover:bg-red-700 text-white text-xs sm:text-sm font-bold rounded-2xl shadow-lg transition hover:scale-105 self-start md:self-auto"
             >
-              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-5 h-5 object-contain" />
+              <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain" />
               <span>Get Demo on WhatsApp</span>
             </a>
           </div>
@@ -79,7 +79,7 @@ export default function PortfolioPage() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-brand-red hover:underline"
                 >
-                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" className="w-4 h-4 object-contain" />
+                  <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="16" height="16" className="w-4 h-4 object-contain" />
                   <span>Request Demo</span>
                 </a>
               </div>
