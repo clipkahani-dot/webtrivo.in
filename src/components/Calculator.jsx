@@ -21,12 +21,11 @@ export default function Calculator() {
   // Pricing Calculation logic
   const basePrices = {
     starter: 4999,
-    growth: 9999,
-    ultimate: 14999
+    growth: 8999
   }
 
-  let total = basePrices[tier]
-  if (tier !== 'ultimate' && addons.video) total += 2000
+  let total = basePrices[tier] || basePrices.growth
+  if (addons.video) total += 2000
   if (addons.email) total += 999
 
   const handleToggleAddon = (key) => {
@@ -34,9 +33,9 @@ export default function Calculator() {
   }
 
   const getCustomWhatsAppQuote = () => {
-    const selectedTierName = tier === 'starter' ? 'Starter (₹4,999)' : tier === 'growth' ? 'Growth Clinic Pro (₹9,999)' : 'Ultimate Brand (₹14,999)'
+    const selectedTierName = tier === 'starter' ? 'Starter Launchpad (₹4,999)' : 'Growth Multi-Page Pro (₹8,999)'
     const addonList = []
-    if (addons.video && tier !== 'ultimate') addonList.push('Video Testimonial Player (+₹2,000)')
+    if (addons.video) addonList.push('Video Testimonial Player (+₹2,000)')
     if (addons.email) addonList.push('Professional Business Email (+₹999)')
     if (addons.googleRank) addonList.push('Google Maps & Local SEO (Free)')
 
@@ -94,47 +93,36 @@ export default function Calculator() {
                 <label className="block text-xs font-extrabold uppercase tracking-wider text-slate-700 mb-2">
                   2. Choose Package Tier
                 </label>
-                <div className="grid grid-cols-3 gap-2.5">
+                <div className="grid grid-cols-2 gap-3">
                   <button
                     type="button"
                     onClick={() => setTier('starter')}
-                    className={`p-3 rounded-2xl border-2 text-center transition-all ${
+                    className={`p-3.5 rounded-2xl border-2 text-center transition-all ${
                       tier === 'starter'
                         ? 'border-brand-blue bg-sky-100 text-brand-darkblue font-extrabold shadow-sm'
                         : 'border-slate-200 bg-white text-slate-700 font-semibold hover:border-slate-300'
                     }`}
                   >
-                    <div className="text-xs">Starter</div>
+                    <div className="text-xs">Starter Launchpad</div>
                     <div className="text-sm font-black mt-1">₹4,999</div>
+                    <div className="text-[10px] text-slate-500 mt-0.5">1-Page Express</div>
                   </button>
 
                   <button
                     type="button"
                     onClick={() => setTier('growth')}
-                    className={`p-3 rounded-2xl border-2 text-center transition-all relative ${
+                    className={`p-3.5 rounded-2xl border-2 text-center transition-all relative ${
                       tier === 'growth'
                         ? 'border-brand-blue bg-sky-100 text-brand-darkblue font-extrabold shadow-sm'
                         : 'border-slate-200 bg-white text-slate-700 font-semibold hover:border-slate-300'
                     }`}
                   >
-                    <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-brand-red text-white text-[9px] font-extrabold px-1.5 py-0.2 rounded-full">
-                      Popular
+                    <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-brand-red text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow">
+                      Most Popular ⭐
                     </span>
-                    <div className="text-xs">Growth Pro</div>
-                    <div className="text-sm font-black mt-1">₹9,999</div>
-                  </button>
-
-                  <button
-                    type="button"
-                    onClick={() => setTier('ultimate')}
-                    className={`p-3 rounded-2xl border-2 text-center transition-all ${
-                      tier === 'ultimate'
-                        ? 'border-brand-blue bg-sky-100 text-brand-darkblue font-extrabold shadow-sm'
-                        : 'border-slate-200 bg-white text-slate-700 font-semibold hover:border-slate-300'
-                    }`}
-                  >
-                    <div className="text-xs">Ultimate</div>
-                    <div className="text-sm font-black mt-1">₹14,999</div>
+                    <div className="text-xs">Growth Multi-Page Pro</div>
+                    <div className="text-sm font-black mt-1">₹8,999</div>
+                    <div className="text-[10px] text-slate-500 mt-0.5">4–5 Complete Pages</div>
                   </button>
                 </div>
               </div>
@@ -146,19 +134,17 @@ export default function Calculator() {
                 </label>
                 <div className="space-y-2 text-xs">
                   
-                  {tier !== 'ultimate' && (
-                    <label className="flex items-center justify-between p-3 bg-white rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50 transition">
-                      <span className="flex items-center gap-2 font-medium text-slate-800">
-                        <input
-                          type="checkbox"
-                          checked={addons.video}
-                          onChange={() => handleToggleAddon('video')}
-                          className="w-4 h-4 text-brand-blue rounded accent-brand-blue"
-                        />
-                        <span>Real Video Testimonials Player (+₹2,000)</span>
-                      </span>
-                    </label>
-                  )}
+                  <label className="flex items-center justify-between p-3 bg-white rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50 transition">
+                    <span className="flex items-center gap-2 font-medium text-slate-800">
+                      <input
+                        type="checkbox"
+                        checked={addons.video}
+                        onChange={() => handleToggleAddon('video')}
+                        className="w-4 h-4 text-brand-blue rounded accent-brand-blue"
+                      />
+                      <span>Real Video Testimonials Player (+₹2,000)</span>
+                    </span>
+                  </label>
 
                   <label className="flex items-center justify-between p-3 bg-white rounded-xl border border-slate-200 cursor-pointer hover:bg-slate-50 transition">
                     <span className="flex items-center gap-2 font-medium text-slate-800">

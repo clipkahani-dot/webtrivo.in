@@ -1,5 +1,5 @@
 export const AGENCY_NAME = 'Webtrivo'
-export const AGENCY_TAGLINE = 'AI-Powered High-Converting Websites for Clinics & Businesses'
+export const AGENCY_TAGLINE = 'High-Speed Custom Websites for Clinics & Businesses'
 export const DOMAIN = 'webtrivo.in'
 
 // Contact & Location Info
@@ -20,100 +20,67 @@ export const getWhatsAppUrl = (msg = '') => {
 
 export const WHATSAPP_MAIN_URL = getWhatsAppUrl()
 
-// Pricing Packages (Transparent, stress-free agency model)
+// Pricing Packages (Transparent 2-Tier Agency Model)
 export const PRICING_PLANS = [
   {
     id: 'starter',
-    name: 'Starter Business Profile',
-    nameHi: '1-Page Express Digital Card',
+    name: 'Starter Launchpad',
+    nameHi: '1-Page Express Landing Page',
     price: '₹4,999',
-    originalPrice: '₹8,999',
+    originalPrice: '₹7,999',
     delivery: '2–3 Working Days',
     idealFor: 'Solo local shops, freelance consultants, lawyers, and single-service businesses',
-    description: 'Ultra-fast 1-page digital presence to display your basic contact, store/office location on Google Maps, and accept direct WhatsApp messages.',
+    description: 'Ultra-fast single-page web presence to showcase your core services, store/clinic location on Google Maps, and receive direct WhatsApp leads.',
     popular: false,
     badge: 'Basic Express',
     scopeBadge: '1 Single Page • Up to 5 Services',
     features: [
-      '1-Page Clean Responsive Web Presence',
-      'Up to 5 Basic Services or Products',
-      'Direct 1-Click WhatsApp Inquiry Button',
-      'Google Maps Location & Contact Details Embed',
-      'About Business & General Working Hours',
-      'Customer Photo Gallery (Up to 6 images)',
-      'Free High-Speed Cloud Hosting (Netlify) + SSL',
+      '1-Page Clean, Fast Responsive Web Presence',
+      'Up to 5 Core Services or Products Listed',
+      'Direct 1-Click WhatsApp Inquiry Action Button',
+      'Google Maps Location & Office Address Embed',
+      'Customer Photo Gallery (Up to 6 photos)',
+      'Free High-Speed Cloud Hosting (Netlify) + Lifetime SSL',
       'Client-Owned Domain Guidance (~₹800 direct fee)',
-      '1 Consolidated Revision Round',
-      '7 Days Basic Post-Launch Bug Support'
+      '7 Days Post-Launch Support'
     ],
     notIncluded: [
-      'No Founder / Doctor / Team Profile Showcase',
-      'No Shift Timings / Consultation Schedule Table',
-      'No 15–20 In-Depth Catalog of Services / Treatments',
-      'No Google 4.9★ Reviews Badge & Grid Showcase',
-      'No Customer Video Testimonials Player'
+      'No Multi-Page Navigation (Home, About, Services, Contact)',
+      'No Founder / Doctor Credentials & Shift Schedule Table',
+      'No 15–20 In-Depth Service Catalog with Descriptions',
+      'No Google 4.9★ Reviews Showcase Grid'
     ],
     ctaText: 'Choose Starter (₹4,999)',
-    whatsappMsg: 'Hello Webtrivo! I want to get the Starter Business Profile plan (₹4,999). Please share details for a Quick Demo Preview.'
+    whatsappMsg: 'Hello Webtrivo! I want to get the Starter Launchpad plan (₹4,999). Please share details for a Quick Demo Preview.'
   },
   {
     id: 'growth',
-    name: 'Growth Business Pro',
-    nameHi: 'Complete Interactive Website (Most Popular)',
-    price: '₹9,999',
-    originalPrice: '₹16,999',
-    delivery: '2–3 Working Days',
-    idealFor: 'Clinics, doctors, retail showrooms, salons, gyms, CAs, lawyers & coaching centers',
-    description: 'Full multi-section website with 15–20 detailed services/treatments, founder/team qualifications, shift/consultation timings, and Google reviews.',
-    popular: true,
-    badge: 'Most Popular • 90% Businesses Choose This ⭐',
-    scopeBadge: 'Multi-Section Complete • 15–20 Services/Products',
-    features: [
-      'Multi-Section Complete Interactive Platform (5+ Sections)',
-      '15–20 In-Depth Services / Treatments / Products with Descriptions',
-      'Founder / Doctor / Team Profile with Experience & Credentials',
-      'Interactive Working Hours & Consultation / Shift Schedule',
-      'Live 4.9★ Google Reviews & Customer Trust Badges',
-      '4 Sticky WhatsApp Action CTAs Across Key Sections',
-      'Complete Local SEO Setup (Google Search & Maps Rank Ready)',
-      'Social Media Integration (Instagram, FB, YouTube, LinkedIn)',
-      'Free High-Speed Cloud Hosting (Netlify) + SSL',
-      'Client-Owned Domain Setup Guidance (~₹800 direct)',
-      '1 Consolidated Revision Round (Priority Turnaround)',
-      '7 Days Dedicated Priority Bug Support'
-    ],
-    notIncluded: [
-      'No Customer Video Testimonials Player Wall',
-      'No Custom Interactive Cost / Budget Calculator'
-    ],
-    ctaText: 'Choose Growth Pro (₹9,999)',
-    whatsappMsg: 'Hello Webtrivo! I want to get the Growth Business Pro package (₹9,999). Please guide me with a Quick Demo Preview.'
-  },
-  {
-    id: 'ultimate',
-    name: 'Ultimate Brand Authority',
-    nameHi: 'Flagship Multi-Location Platform',
-    price: '₹14,999',
-    originalPrice: '₹24,999',
+    name: 'Growth Multi-Page Pro',
+    nameHi: 'Complete 4–5 Page Authority Website',
+    price: '₹8,999',
+    originalPrice: '₹14,999',
     delivery: '3–4 Working Days',
-    idealFor: 'Multi-branch showrooms, hospitals, corporate firms & expanding brands',
-    description: 'Elite authority platform featuring embedded customer video reviews wall, multi-branch directory, schema SEO, and direct developer VIP support.',
-    popular: false,
-    badge: 'Flagship Multi-Location Brand',
-    scopeBadge: 'Unlimited Scale • Video Wall • Multi-Branch',
+    idealFor: 'Clinics, doctors, retail showrooms, salons, gyms, CAs & coaching institutes',
+    description: 'Full multi-page authority website with separate pages (Home, About, Services, Gallery, Contact), team credentials, consultation timings, and Google reviews.',
+    popular: true,
+    badge: 'Most Popular • 90% Clients Choose This ⭐',
+    scopeBadge: '4–5 Separate Pages • 15–20 Services',
     features: [
-      'Everything in Growth Business Pro Included',
-      'Embedded Customer / Patient Video Testimonials Wall',
-      'Multiple Branch / Store / Clinic Locations Directory',
-      'Interactive Service Cost / Budget Estimator Tool',
-      'Google Schema Markup (LocalBusiness / Medical / Professional)',
-      'Custom Domain Business Email Setup Guidance (@brand.in)',
-      '2 Comprehensive Revision Rounds',
-      '14 Days Direct VIP Developer Support'
+      'Complete 4–5 Separate Pages (Home, About, Services, Gallery, Contact)',
+      '15–20 In-Depth Services / Treatments Catalog with Pricing & Cards',
+      'Founder / Doctor Profile with Experience & Credentials',
+      'Interactive Consultation Timings & Shift Schedule Table',
+      'Live 4.9★ Google Reviews Showcase & Trust Badges',
+      'Sticky WhatsApp Action CTAs for Maximum Lead Capture',
+      'Complete On-Page SEO & Google Maps Rank Ready',
+      'Social Media Integration (Instagram, FB, YouTube)',
+      'Free High-Speed Cloud Hosting (Netlify) + Lifetime SSL',
+      'Client-Owned Domain Guidance (~₹800 direct fee)',
+      'Dedicated Priority Support'
     ],
     notIncluded: [],
-    ctaText: 'Choose Ultimate (₹14,999)',
-    whatsappMsg: 'Hello Webtrivo! I am interested in the Ultimate Brand Authority package (₹14,999). Please connect with me for a Quick Demo Preview.'
+    ctaText: 'Choose Growth Pro (₹8,999)',
+    whatsappMsg: 'Hello Webtrivo! I want to get the Growth Multi-Page Pro package (₹8,999). Please guide me with a Quick Demo Preview.'
   }
 ]
 

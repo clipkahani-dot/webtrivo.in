@@ -31,8 +31,8 @@ export default function Pricing() {
           </p>
         </div>
 
-        {/* 3 Pricing Cards Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+        {/* 2 Clear Pricing Packages Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto gap-8 items-stretch">
           {PRICING_PLANS.map((plan) => {
             return (
               <div

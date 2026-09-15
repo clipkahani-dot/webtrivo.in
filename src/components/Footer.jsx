@@ -66,7 +66,7 @@ export default function Footer() {
             <Link to="/" className="flex items-center gap-2.5">
               <img 
                 src="/images/webtivo_logo.webp" 
-                alt="Webtrivo AI Web Agency Logo" 
+                alt="Webtrivo Website Agency Logo" 
                 width="44"
                 height="44"
                 loading="lazy"

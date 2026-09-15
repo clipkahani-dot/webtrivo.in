@@ -32,7 +32,7 @@ export default function HomePage() {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-sky-300/40 group hover:shadow-sky-500/25 transition-all duration-500 bg-slate-950">
             <img 
               src="/images/webtrivo_banner.webp" 
-              alt="Webtrivo AI Web Agency Official Banner" 
+              alt="Webtrivo Website Development Agency Official Banner" 
               width="1200"
               height="415"
               loading="lazy"
@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="absolute bottom-5 left-8 right-8 flex items-center justify-between text-white text-xs font-semibold pointer-events-none">
               <span className="flex items-center gap-2 bg-slate-900/80 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 shadow-lg">
                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
-                <span className="font-bold">Webtrivo • AI Web Development Agency</span>
+                <span className="font-bold">Webtrivo • High-Speed Website Development Agency</span>
               </span>
               <span className="bg-slate-900/80 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 shadow-lg hidden lg:inline">
                 🚀 Fast 2–3 Days Launch • Pan-India Service
@@ -125,8 +125,8 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* 3 Compact Pricing Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* 2 Clear Pricing Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl mx-auto gap-8">
             {PRICING_PLANS.map((plan) => (
               <div 
                 key={plan.id}

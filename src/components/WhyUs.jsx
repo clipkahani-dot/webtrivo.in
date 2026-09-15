@@ -16,8 +16,8 @@ export default function WhyUs() {
   const reasons = [
     {
       icon: Zap,
-      title: 'AI-Powered Speed & Precision',
-      desc: 'We use advanced AI-assisted coding and design workflows to build clean, ultra-fast, bug-free websites in just 2–3 working days.'
+      title: 'Lightning-Fast Speed & Delivery',
+      desc: 'We engineer clean, ultra-fast, modern cloud-hosted websites ready for launch in just 2–3 working days.'
     },
     {
       icon: Smartphone,

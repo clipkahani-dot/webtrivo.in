@@ -73,7 +73,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-2.5 group">
             <img 
               src="/images/webtivo_logo.webp" 
-              alt="Webtrivo AI Web Agency Logo" 
+              alt="Webtrivo Website Agency Logo" 
               width="40"
               height="40"
               className="w-10 h-10 rounded-xl object-cover shadow-md shadow-sky-500/25 group-hover:scale-105 transition-transform duration-300 border border-slate-800 bg-slate-950"
@@ -89,7 +89,7 @@ export default function Navbar() {
                 </span>
               </div>
               <span className="text-[10px] font-semibold text-slate-500 tracking-tight -mt-0.5">
-                AI Web Development Agency
+                High-Speed Website Agency
               </span>
             </div>
           </Link>

@@ -34,7 +34,7 @@ export default function Hero() {
             <div className="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 shadow-sm">
                 <Zap className="w-3.5 h-3.5 fill-indigo-600" />
-                AI-Powered Web Architecture
+                High-Speed Web Architecture
               </span>
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold bg-sky-100 text-brand-darkblue border border-sky-300 shadow-sm">
                 <Sparkles className="w-3.5 h-3.5 text-brand-blue" />
@@ -113,7 +113,7 @@ export default function Hero() {
                   <Cpu className="w-4 h-4 text-purple-600" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900 leading-tight">AI Architecture</h4>
+                  <h4 className="text-xs font-bold text-slate-900 leading-tight">Modern Architecture</h4>
                   <p className="text-[11px] text-slate-500 mt-0.5">Lightning-fast code</p>
                 </div>
               </div>
