@@ -39,7 +39,7 @@ export default function Navbar() {
               <Zap className="w-3 h-3 fill-white" /> Limited Offer
             </span>
             <span className="text-slate-300 hidden sm:inline">
-              Websites from <strong>₹4,999</strong> • Quick Demo Preview • <strong>{DELIVERY_TIME}</strong> Fast Launch
+              Websites from <strong>₹1,999</strong> • Quick Demo Preview • <strong>{DELIVERY_TIME}</strong> Fast Launch
             </span>
           </div>
 
@@ -185,7 +185,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenu(false)}
                 className="p-2.5 hover:bg-sky-50 rounded-xl text-slate-900"
               >
-                🏷️ Pricing Packages (From ₹4,999)
+                🏷️ Pricing Packages (From ₹1,999)
               </Link>
               <Link 
                 to="/calculator" 

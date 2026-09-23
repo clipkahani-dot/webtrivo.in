@@ -66,7 +66,7 @@ export default function PricingPage() {
                 <th className="p-4 sm:p-5 font-bold w-1/2">Key Feature / Deliverable</th>
                 <th className="p-4 sm:p-5 font-bold text-center w-1/4">
                   <div>Starter Launchpad</div>
-                  <div className="text-sm sm:text-base font-black text-amber-400 mt-0.5">₹4,999</div>
+                  <div className="text-sm sm:text-base font-black text-amber-400 mt-0.5">₹1,999</div>
                   <div className="text-[10px] text-slate-300 font-normal">1-Page Express Card</div>
                 </th>
                 <th className="p-4 sm:p-5 font-bold text-center w-1/4 bg-brand-blue text-white relative">
@@ -74,7 +74,7 @@ export default function PricingPage() {
                     Most Popular ⭐
                   </span>
                   <div className="mt-1">Growth Multi-Page Pro</div>
-                  <div className="text-sm sm:text-base font-black text-white mt-0.5">₹8,999</div>
+                  <div className="text-sm sm:text-base font-black text-white mt-0.5">₹3,499</div>
                   <div className="text-[10px] text-sky-100 font-normal">Complete 4–5 Page Website</div>
                 </th>
               </tr>
@@ -259,7 +259,7 @@ export default function PricingPage() {
           
           <div className="bg-slate-50 border-2 border-slate-200 rounded-3xl p-6 sm:p-8 relative">
             <span className="px-3 py-1 rounded-full text-[11px] font-extrabold bg-slate-200 text-slate-800">
-              Pick Starter (₹4,999) If:
+              Pick Starter (₹1,999) If:
             </span>
             <h4 className="text-lg font-extrabold text-slate-900 mt-3 mb-2">
               You Need a Fast 1-Page Digital Presence
@@ -274,7 +274,7 @@ export default function PricingPage() {
 
           <div className="bg-sky-50/80 border-2 border-brand-blue rounded-3xl p-6 sm:p-8 relative shadow-lg">
             <span className="px-3 py-1 rounded-full text-[11px] font-black bg-brand-blue text-white shadow-sm">
-              ⭐ Pick Growth Pro (₹8,999) If (Recommended):
+              ⭐ Pick Growth Pro (₹3,499) If (Recommended):
             </span>
             <h4 className="text-lg font-extrabold text-slate-900 mt-3 mb-2">
               You Are a Clinic, Showroom, Salon, Gym, CA or Coaching
@@ -313,7 +313,7 @@ export default function PricingPage() {
                 Tell Us Your Business Type & We Will Suggest The Right Plan
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
-                Send us a message on WhatsApp. We will analyze your requirements and tell you honestly whether you need Starter (₹4,999) or Growth Multi-Page Pro (₹8,999) — zero pressure, zero upsell traps.
+                Send us a message on WhatsApp. We will analyze your requirements and tell you honestly whether you need Starter (₹1,999) or Growth Multi-Page Pro (₹3,499) — zero pressure, zero upsell traps.
               </p>
             </div>
 

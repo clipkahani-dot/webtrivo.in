@@ -48,19 +48,15 @@
 
 ---
 
-## 4. 💰 Pricing Packages
+## 4. 💰 Pricing Packages (Client-Acquisition Launch Rates)
 
-### 🥉 Starter Business Profile — ₹4,999 (was ₹8,999)
+### 🥉 Starter Business Profile — ₹1,999 (was ₹3,999)
 - **Ideal For**: Local shops, single doctors, individual consultants, freelancers.
 - **Features**: 1-Page clean responsive design, Quick Demo Preview, direct WhatsApp & click-to-call, Google Maps embed, photo gallery (up to 8 photos), free Netlify cloud hosting & lifetime SSL, client-owned domain setup, 1 revision round, 7-day bug support, 2–3 days delivery.
 
-### 🥈 Growth / Clinic Pro (Most Popular ⭐) — ₹9,999 (was ₹16,999)
+### 🥈 Growth Multi-Page Pro (Most Popular ⭐) — ₹3,499 (was ₹6,999)
 - **Ideal For**: Doctors, clinics, nursing homes, retail showrooms, salons, gyms, legal & financial firms.
-- **Features**: Multi-section comprehensive website, Quick Demo Preview, dedicated services catalog (15–20 treatments/services), doctor/team profiles with qualifications, consultation timings, Google 5-star reviews & QR code showcase, social media integration, complete On-Page SEO, free Netlify cloud hosting & lifetime SSL, client-owned domain setup, 1 revision round, 7-day bug support, 2–3 days delivery.
-
-### 🥇 Ultimate Custom Brand — ₹14,999 (was ₹24,999)
-- **Ideal For**: Hospitals, multi-speciality centers, expanding brands, corporate businesses.
-- **Features**: Everything in Clinic Pro + custom brand UI/UX, real video testimonials player integration, multi-branch support, interactive price estimator, Google Knowledge Graph Schema (MedicalClinic, FAQ), business email setup guidance, free Netlify cloud hosting & lifetime SSL, client-owned domain setup, 1 revision round, 7-day bug support, 2–3 days delivery.
+- **Features**: Complete 4–5 page authority website, Quick Demo Preview, dedicated services catalog (15–20 treatments/services), doctor/team profiles with qualifications, consultation timings, Google 5-star reviews showcase, social media integration, complete On-Page SEO, free Netlify cloud hosting & lifetime SSL, client-owned domain setup, 1 revision round, 7-day bug support, 2–3 days delivery.
 
 ---
 

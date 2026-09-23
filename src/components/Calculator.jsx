@@ -20,8 +20,8 @@ export default function Calculator() {
 
   // Pricing Calculation logic
   const basePrices = {
-    starter: 4999,
-    growth: 8999
+    starter: 1999,
+    growth: 3499
   }
 
   let total = basePrices[tier] || basePrices.growth
@@ -33,7 +33,7 @@ export default function Calculator() {
   }
 
   const getCustomWhatsAppQuote = () => {
-    const selectedTierName = tier === 'starter' ? 'Starter Launchpad (₹4,999)' : 'Growth Multi-Page Pro (₹8,999)'
+    const selectedTierName = tier === 'starter' ? 'Starter Launchpad (₹1,999)' : 'Growth Multi-Page Pro (₹3,499)'
     const addonList = []
     if (addons.video) addonList.push('Video Testimonial Player (+₹2,000)')
     if (addons.email) addonList.push('Professional Business Email (+₹999)')
@@ -104,7 +104,7 @@ export default function Calculator() {
                     }`}
                   >
                     <div className="text-xs">Starter Launchpad</div>
-                    <div className="text-sm font-black mt-1">₹4,999</div>
+                    <div className="text-sm font-black mt-1">₹1,999</div>
                     <div className="text-[10px] text-slate-500 mt-0.5">1-Page Express</div>
                   </button>
 
@@ -121,7 +121,7 @@ export default function Calculator() {
                       Most Popular ⭐
                     </span>
                     <div className="text-xs">Growth Multi-Page Pro</div>
-                    <div className="text-sm font-black mt-1">₹8,999</div>
+                    <div className="text-sm font-black mt-1">₹3,499</div>
                     <div className="text-[10px] text-slate-500 mt-0.5">4–5 Complete Pages</div>
                   </button>
                 </div>

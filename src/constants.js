@@ -26,8 +26,8 @@ export const PRICING_PLANS = [
     id: 'starter',
     name: 'Starter Launchpad',
     nameHi: '1-Page Express Landing Page',
-    price: '₹4,999',
-    originalPrice: '₹7,999',
+    price: '₹1,999',
+    originalPrice: '₹3,999',
     delivery: '2–3 Working Days',
     idealFor: 'Solo local shops, freelance consultants, lawyers, and single-service businesses',
     description: 'Ultra-fast single-page web presence to showcase your core services, store/clinic location on Google Maps, and receive direct WhatsApp leads.',
@@ -50,15 +50,15 @@ export const PRICING_PLANS = [
       'No 15–20 In-Depth Service Catalog with Descriptions',
       'No Google 4.9★ Reviews Showcase Grid'
     ],
-    ctaText: 'Choose Starter (₹4,999)',
-    whatsappMsg: 'Hello Webtrivo! I want to get the Starter Launchpad plan (₹4,999). Please share details for a Quick Demo Preview.'
+    ctaText: 'Choose Starter (₹1,999)',
+    whatsappMsg: 'Hello Webtrivo! I want to get the Starter Launchpad plan (₹1,999). Please share details for a Quick Demo Preview.'
   },
   {
     id: 'growth',
     name: 'Growth Multi-Page Pro',
     nameHi: 'Complete 4–5 Page Authority Website',
-    price: '₹8,999',
-    originalPrice: '₹14,999',
+    price: '₹3,499',
+    originalPrice: '₹6,999',
     delivery: '3–4 Working Days',
     idealFor: 'Clinics, doctors, retail showrooms, salons, gyms, CAs & coaching institutes',
     description: 'Full multi-page authority website with separate pages (Home, About, Services, Gallery, Contact), team credentials, consultation timings, and Google reviews.',
@@ -79,8 +79,8 @@ export const PRICING_PLANS = [
       'Dedicated Priority Support'
     ],
     notIncluded: [],
-    ctaText: 'Choose Growth Pro (₹8,999)',
-    whatsappMsg: 'Hello Webtrivo! I want to get the Growth Multi-Page Pro package (₹8,999). Please guide me with a Quick Demo Preview.'
+    ctaText: 'Choose Growth Pro (₹3,499)',
+    whatsappMsg: 'Hello Webtrivo! I want to get the Growth Multi-Page Pro package (₹3,499). Please guide me with a Quick Demo Preview.'
   }
 ]
 

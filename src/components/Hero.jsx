@@ -41,7 +41,7 @@ export default function Hero() {
                 {DEMO_PREVIEW} Included
               </span>
               <span className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-bold bg-red-50 text-brand-red border border-red-200 shadow-sm">
-                From ₹4,999
+                From ₹1,999
               </span>
               <span className="hidden sm:inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
                 <Clock className="w-3.5 h-3.5 text-emerald-600" />
@@ -55,7 +55,7 @@ export default function Hero() {
                 Get Your Business Online in <span className="text-brand-blue underline decoration-brand-blue/30 underline-offset-8">2–3 Working Days</span>
               </h1>
               <p className="text-base sm:text-xl font-semibold text-slate-700 leading-relaxed">
-                Professional websites for clinics, shops, consultants & local businesses — starting at <span className="text-brand-red font-bold">₹4,999</span>.
+                Professional websites for clinics, shops, consultants & local businesses — starting at <span className="text-brand-red font-bold">₹1,999</span>.
               </p>
               <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-sm font-bold shadow-sm">
                 <img src="/images/whatsapp-icon.webp" alt="WhatsApp" width="20" height="20" className="w-5 h-5 object-contain flex-shrink-0" />

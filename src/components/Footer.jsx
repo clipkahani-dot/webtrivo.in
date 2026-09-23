@@ -32,7 +32,7 @@ export default function Footer() {
               Ready to take your business online?
             </h3>
             <p className="text-xs sm:text-sm text-sky-100 max-w-xl">
-              Starting at just ₹4,999 with a Quick Demo Preview. Get a high-converting website live on your domain in {DELIVERY_TIME}.
+              Starting at just ₹1,999 with a Quick Demo Preview. Get a high-converting website live on your domain in {DELIVERY_TIME}.
             </p>
           </div>
 
